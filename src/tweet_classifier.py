@@ -1,10 +1,10 @@
 """
-Classifiy sentiment of tweets.
+Classify sentiment of tweets.
 """
 
-import os
 import openai
 import dotenv
+import os
 
 
 # load environment variables from `.env` file if it exists
@@ -23,7 +23,7 @@ with open(filename, "r") as file:
 
 
 response = openai.Completion.create(
-  engine="davinci",
+  engine=engine,
   prompt=prompt,
   temperature=0.3,
   max_tokens=60,
