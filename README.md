@@ -1,7 +1,7 @@
 # GPT-3 Workshop Resources
 
 ## Setup
-Create .env file with your OpenAI api key.
+Create .env file with your OpenAI API key.
 
 ## Commands
 ```bash

@@ -16,9 +16,14 @@ dotenv.load_dotenv(override=True)
 openai.api_key = os.getenv("OPENAI_API_KEY")
 folder = 'prompts/semantic_search/movies/'
 engine = "babbage"
+# engine = "davinci"
 
 
-query = "Epic adventure"
+# query = "Epic adventure"
+# query = "Joker is main protagonist"
+query = "Joker is main hero"
+# query = "Joker is main antagonist"
+# query = "Anti-hero"
 # query = "Todd Phillips"
 
 
